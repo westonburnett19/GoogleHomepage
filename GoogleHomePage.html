@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="GoogleHomepage.css"/>
+    <title>Google</title>
+</head>
+<body>
+    <header>
+        <ul id="nav-right">
+            <li><a href="a">Gmail</a></li>
+            <li><a href="a">Images</a></li>
+            <li><input type="button" id="sign-in" value="sign-in"/></li>
+        </ul>
+        <script type="text/javascript">
+            function focusIt()
+            {
+                var my_search_box = document.getElementById("search-box");
+                my_search_box();            
+            }
+
+            onload = focusIt;    
+        </script>
+    </header>
+ <div id="content">
+     <div id="logo">
+         <img src="GoogleLogo.png" alt="Google Logo" width="300px"/>
+     </div>
+     <div id="search">
+        <input id="search-box" type="text" name="search">
+     </div>
+     <div id="search-buttons">
+         <input type="button" class="button" name="google" value="Google Search"/>
+         <input type="button" class="button" name="google" value="I'm Feeling Lucky"/>     </div>
+ </div>
+ <footer>
+    <ul id="footer-left">
+        <li><a href="#">Advertising</a></li>
+        <li><a href="#">Business</a></li>
+        <li><a href="#">About</a></li>
+    </ul>
+
+    <ul id="footer-right">
+        <li><a href="#">Privacy</a></li>
+        <li><a href="#">Terms</a></li>
+        <li><a href="#">Settings</a></li>
+    </ul>
+ </footer> 
+</body>
+</html>
